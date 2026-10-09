@@ -99,7 +99,7 @@ Bottom bar: write icon, clock, menu icon.
 
 Minimize with long press of button 3 or Menu > Minimize. There are Two modes that you can find at "Interface -> In Background):
 
-- Power saving: PARTs every channel on minimize (windows kept, names in red), and re-JOINs on return. Least traffic, you miss nothing but appear to part/join. Keeps you connected so you can receive private messages but battery and battery last much much longer since network module has almost nothing to process, just a few pings to keep you connected.
+- Power saving: PARTs every channel on minimize (windows kept, names in red), and re-JOINs on return. Least traffic, you miss nothing but appear to part/join. Keeps you connected so you can receive private messages but last much much longer since network module has almost nothing to process, just a few pings to keep you connected.
 
 - Keep active: stays joined, lines buffer up. More traffic, and more battery drain.
 
@@ -139,11 +139,16 @@ Menu > Nicks (channels only). Sorted with @ first. Kept live automatically; only
 
 ## Alerts
 
-Interface > Alerts: off, sound or vibration.
-They fire only for windows you are not reading (or while minimized).
-It fires on mentions on other windows or new private messages.
+Interface > Alerts: off, sound or vibration. 
+They fire for windows you are not reading and they name your nick, for private messages, and while minimized.
+
+Note: background vibration is implementation-dependent — on some phones (e.g. Sony Ericsson W200i) vibration only works with the app in the foreground. Use sound if you minimize.
+
 
 ## Settings worth knowing
 
-In order to minimize the use of battery, evalue to put the refresh rate has high as you are comfortable with (up to 1000ms), try to avoid stay on many channels of high activity, hide all the channel events, and enable the "power saving" mode, so when its minimized, it departs from all channels reducing to the network activity to a few pings per minute. Upper indicator margin moves the window counter and bars away from the top corner if your phone draws system icons there (signal, battery).
+In order to minimize the use of battery, evalue to put the refresh rate has high as you are comfortable with (up to 1000ms), try to avoid stay on many channels of high activity, hide all the channel events, and enable the "power saving" mode, so when its minimized, it departs from all channels reducing the network activity to a few pings to keep up the connection.
+
+## Margin Pixels
+Upper indicator margin moves the window counter and bars away from the top corner if your phone draws system icons there (signal, battery).
 
