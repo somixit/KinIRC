@@ -1,0 +1,57 @@
+## Atajos:
+Tecla * limpia la ventana.
+-
+Tecla # cierra la ventana.
+-
+Tecla 1 abre Status.
+-
+Tecla 3 minimiza la app (pulsada 200 ms).
+-
+Tecla 7 muestra la memoria.
+-
+Mención rápida: pulsa el centro en un canal para responder sin reescribir nicks; arriba/abajo elige un mensaje reciente (sale en negativo), centro o izquierda confirma y abre el editor con el nick puesto. Atrás sale del modo.
+-
+
+## Acciones:
+Menú de acciones son frases o comandos preescritos que puedes personalizar.
+-
+
+## Refresco:
+La tasa de refresco de pantalla (de 100 ms a 1000 ms) permite ahorrar ciclos de CPU. Si pones 1000 ms se actualiza cada segundo, si pones 100 se actualiza cada 0,1 segundos gastando más batería.
+-
+
+## Notificaciones:
+Activar las notificaciones supone que suena o vibra si te mencionan en un canal que no está en primer plano, o te abren un privado. También suena cuando está minimizada la app.
+-
+
+## Parpadeo de Status:
+El parpadeo bajo el icono verde de la esquina superior significa que hay un mensaje nuevo en Status aún no leído.
+-
+
+## Máximo de ventanas:
+El máximo de ventanas impide ataques de flood que puedan saturar el aparato.
+-
+
+## Mensajes en memoria:
+El máximo de mensajes en memoria impide que el programa se sature con exceso de información.
+-
+
+## Margen del indicador:
+Separa el bloque de ventanas (número y barras) de la esquina superior, por si el teléfono pinta iconos del sistema ahí (cobertura, batería) como en algunos Sony Ericsson.
+-
+
+## Reconexión:
+Activar la reconexión hará que se reconecte automáticamente en caso de desconectarse por sí solo.
+-
+
+## Título en rojo:
+Si un canal tiene el título en rojo, significa que está la ventana abierta pero no estás dentro. En amarillo, saliendo: se cierra al confirmarlo el servidor.
+-
+
+## Ahorro de Batería:
+Este modo ahorra batería reduciendo mucho la carga del módem. Para bajar la carga y por tanto el consumo, sale de todos los canales pero mantiene la conexión, así que sigues recibiendo privados, y pita o vibra cuando llega uno. Se activa en cuanto se minimiza la app (pulsación larga de la tecla 3 o Menú > Minimizar). También se activa con 30 segundos de retardo cuando el teléfono entra en sleep profundo tras apagarse la pantalla. Minimizar con el botón atrás de Sony Ericsson y elegir "minimizar app" también lo activa con 30 segundos de retardo. Al volver, reentra solo en los canales de los que había salido.
+-
+
+## Eventos del canal:
+En Interfaz > Eventos del canal: "Ocultar todo" quita joins, parts, quits, cambios de nick, kicks, topics y modos (incluidos bans). "Ocultar solo joins" quita joins, parts, quits, cambios de nick y kicks, pero deja topics, modos de canal y bans. El estilo elegido ("Compacto Fino", "Compacto Grueso", "Normal") también se aplica a los cambios de nick.
+-

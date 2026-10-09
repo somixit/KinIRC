@@ -1,0 +1,469 @@
+# KinIRC idioma: Español
+# FORMATO indice=texto. NO reordenar ni borrar lineas: solo editar tras el '='.
+# Los espacios al inicio/final SE conservan. \n = salto de linea, \\ = barra.
+# 0 TITLE_PROFILES
+0=Perfiles
+# 1 CMD_NEW
+1=Nuevo
+# 2 CMD_EDIT
+2=Editar
+# 3 CMD_DELETE
+3=Borrar
+# 4 CMD_INTERFACE
+4=Interfaz
+# 5 CMD_HELP
+5=Ayuda
+# 6 CMD_EXIT
+6=Salir
+# 7 NOTICE_COMPLETE_PROFILE
+7=Completa servidor y nick
+# 8 TITLE_NEW_PROFILE
+8=Nuevo perfil
+# 9 TITLE_EDIT_PROFILE
+9=Editar perfil
+# 10 FLD_PROFILE_NAME
+10=Nombre de Perfil
+# 11 FLD_SERVER
+11=Servidor
+# 12 FLD_PORT
+12=Puerto
+# 13 FLD_NICK
+13=Nick
+# 14 FLD_USER
+14=Usuario
+# 15 FLD_REALNAME
+15=Nombre
+# 16 FLD_PASSWORD
+16=Password
+# 17 FLD_CHANNELS
+17=Canales separados por coma
+# 18 CMD_SAVE
+18=Guardar
+# 19 CMD_SAVE_CONNECT
+19=Guardar y conectar
+# 20 CMD_CANCEL
+20=Cancelar
+# 21 CMD_BACK_SHORT
+21=Atras
+# 22 ERR_PORT_NUMBER
+22=El puerto debe ser un numero
+# 23 ERR_PORT_INVALID
+23=Puerto invalido
+# 24 ERR_MISSING_SERVER_NICK
+24=Faltan servidor o nick
+# 25 ERR_MAX_PROFILES
+25=Maximo de perfiles alcanzado
+# 26 TITLE_INTERFACE
+26=Interfaz
+# 27 FLD_MSG_WINDOW
+27=Mensajes por ventana
+# 28 GRP_JOIN
+28=Avisos de Entrada y Salida
+# 29 JOIN_FINE
+29=Compacto Fino
+# 30 JOIN_COMPACT
+30=Compacto Grueso
+# 31 JOIN_NORMAL
+31=Normal
+# 32 JOIN_HIDDEN
+32=Ocultos
+# 36 GRP_ALERTS
+36=Alertas de Mensajes:
+# 37 ALERT_OFF
+37=Apagadas
+# 38 ALERT_SOUND
+38=Sonido
+# 39 ALERT_VIBRATE
+39=Vibracion
+# 40 GRP_RECONNECT
+40=Reconectar:
+# 41 OPT_YES
+41=Si
+# 42 OPT_NO
+42=No
+# 43 GRP_NICKBOLD
+43=Nicks en Negrita
+# 44 GRP_FONT
+44=Tamano de Letra
+# 45 FONT_MINI
+45=Mini
+# 46 FONT_SMALL
+46=Pequeno
+# 47 FONT_NORMAL
+47=Normal
+# 48 FONT_LARGE
+48=Grande
+# 49 FLD_MAX_CHAN
+49=Max. Canales Listado:
+# 50 FLD_MAX_WIN
+50=Max. Ventanas:
+# 51 FLD_REFRESH
+51=Refresco Pantalla (ms):
+# 52 GRP_BG
+52=En segundo plano:
+# 53 BG_SAVE
+53=Ahorro Energía
+# 54 BG_KEEP
+54=Mantener Activo
+# 55 GRP_INDICATOR
+55=Indicador de Ventanas:
+# 56 IND_NUM
+56=Numeral
+# 57 IND_BARS
+57=Barras
+# 58 IND_BOTH
+58=Ambos
+# 60 FLD_MARGIN
+60=Pixels de margen indicador superior
+# 61 ERR_ALL_NUMBERS
+61=Mensajes, canales, ventanas, refresco y margen deben ser numeros
+# 62 ERR_LINES
+62=Los mensajes deben estar entre 1 y 100
+# 63 ERR_CHANS
+63=Los canales deben estar entre 20 y 5000
+# 64 ERR_WINDOWS
+64=Las ventanas deben estar entre 2 y 30
+# 65 ERR_REFRESH
+65=El refresco debe estar entre 100 y 1000 ms
+# 66 ERR_MARGIN
+66=El margen debe estar entre 0 y 40
+# 67 TITLE_ACTIONS
+67=Acciones
+# 68 ACT_EMPTY
+68=(sin acciones, crea una con Nuevo)
+# 69 TITLE_ACTION
+69=Accion
+# 70 TITLE_LANGUAGE
+70=Idioma / Language
+# 71 GRP_LANGUAGE
+71=Idioma
+# 72 EMPTY_CHAT
+72=Sin mensajes
+# 73 MEM_TITLE
+73=Memoria
+# 74 MEM_TOTAL
+74=Total: 
+# 75 MEM_USED
+75=\nUsed: 
+# 76 MEM_MAX
+76=  Max: 
+# 77 MEM_T
+77=\nT: 
+# 78 MEM_W
+78=  W: 
+# 79 MEM_MSG
+79=  Msg: 
+# 80 MEM_NICKS
+80=\nNicks: 
+# 81 MEM_THREADS
+81=\nThreads: 
+# 82 TITLE_MESSAGE
+82=Mensaje
+# 83 CMD_SEND
+83=Enviar
+# 84 TITLE_JOINKEY
+84=Canal y clave
+# 85 CMD_JOIN_ENTER
+85=Entrar
+# 86 NOTICE_NICKS_CHANNEL
+86=La lista de nicks solo existe en un canal
+# 87 MENU_WHOIS_PRE
+87=Whois 
+# 88 MENU_UNIGNORE
+88=Dejar de ignorar
+# 89 MENU_IGNORE
+89=Ignorar
+# 90 MENU_NICKS
+90=Listar Usuarios
+# 91 MENU_ACTIONS
+91=Acciones
+# 92 MENU_JOIN
+92=Entrar en canal
+# 93 MENU_WINDOWS
+93=Ventanas
+# 94 MENU_CLEAR
+94=Limpiar Ventana
+# 95 MENU_CHANLIST
+95=Listar Canales
+# 96 MENU_CHANCTL
+96=Control de Canal
+# 97 MENU_INTERFACE
+97=Interfaz
+# 98 MENU_IGNORES
+98=Ignorados
+# 99 MENU_EXIT
+99=Salir
+# 100 MENU_DISCONNECT
+100=Desconectar
+# 101 MENU_CONNECT
+101=Conectar
+# 102 MENU_MINIMIZE
+102=Minimizar
+# 103 MENU_CLOSE
+103=Cerrar Ventana
+# 104 CMD_BACK
+104=Volver
+# 105 NOTICE_OFFLINE
+105=Sin conexión
+# 106 CC_TOPIC
+106=Cambiar Topic
+# 107 CC_KICK
+107=Kick usuario
+# 108 CC_BAN
+108=Ban usuario +b
+# 109 CC_UNBAN
+109=UnBan usuario -b
+# 110 CC_OP
+110=Dar +o
+# 111 CC_DEOP
+111=Quitar -o
+# 112 CC_VOICE
+112=Dar Voz +v
+# 113 CC_DEVOICE
+113=Quitar Voz -v
+# 114 CC_PRIVATE
+114=Canal Privado +p
+# 115 CC_PUBLIC
+115=Canal Publico -p
+# 116 CC_INVITE
+116=Only Invite +i
+# 117 CC_UNINVITE
+117=Quitar Only -i
+# 118 CC_MOD
+118=Canal Moderado +m
+# 119 CC_UNMOD
+119=Quitar Moderado -m
+# 120 CC_SETKEY
+120=Poner Pass +k
+# 121 CC_UNSETKEY
+121=Quitar Pass -k
+# 122 TITLE_TOPIC
+122=Topic
+# 123 CMD_SET
+123=Poner
+# 124 TITLE_KEY
+124=Clave
+# 125 NOTICE_NO_PROFILE
+125=Elige o crea un perfil
+# 126 HINT_JOIN_CHAN
+126=Entrar
+# 127 STATE_CONNECTING
+127=Conectando...
+# 128 STATE_CONNECTED_PRE
+128=Conectado como 
+# 129 STATE_DISCONNECTED
+129=Desconectado
+# 130 NOTICE_NO_PROFILE_CFG
+130=Sin perfil de conexion
+# 131 STATUS_CONNECTING_PRE
+131=Conectando a 
+# 132 QUIT_MESSAGE
+132=Saliendo
+# 133 ERR_NO_WINDOW
+133=No hay una ventana de chat activa
+# 134 ERR_NOT_IN_CHANNEL
+134=Todavia no estas en ese canal
+# 135 ERR_SEND_OFFLINE
+135=No se puede enviar sin conexión
+# 136 ERR_JOIN_OFFLINE
+136=No se puede enviar JOIN sin conexión
+# 137 ERR_NAMES_OFFLINE
+137=No se puede consultar la lista sin conexión
+# 138 ERR_LIST_OFFLINE
+138=No se puede pedir la lista sin conexión
+# 139 ERR_MAX_WINDOWS
+139=Aumenta el máximo de ventanas permitido
+# 140 SYS_UNBANNED_PRE
+140=Unbaneado 
+# 141 SUFFIX_IGNORED
+141=ignorado
+# 142 SUFFIX_UNIGNORED
+142=ya no ignorado
+# 143 CHAN_ONE
+143=1 canal
+# 144 CHAN_MANY_SUF
+144= canales
+# 145 SYS_PAUSED_PRE
+145=Pausado (ahorro): saliendo de 
+# 146 SYS_RESUMED_PRE
+146=Reanudado: entrando en 
+# 149 HELP_L1
+149=/join #canal [clave] /part [motivo] /close
+# 150 HELP_L2
+150=/msg nick texto /query nick /me texto /topic #canal [texto]
+# 151 HELP_L3
+151=/kick nick [motivo] /ban nick /invite nick /mode [flags]
+# 152 HELP_L4
+152=/names /nick /raw /connect /list /whois
+# 153 HELP_L5
+153=Otro /comando (oper, motd...) se manda al servidor
+# 154 USAGE_WHOIS
+154=Uso: /whois nick
+# 155 USAGE_TOPIC
+155=Uso: /topic #canal [texto]
+# 156 USAGE_KICK
+156=Uso: /kick nick [motivo] (en un canal)
+# 157 USAGE_BAN
+157=Uso: /ban nick [#canal]
+# 158 USAGE_INVITE
+158=Uso: /invite nick [#canal]
+# 159 USAGE_MODE
+159=Uso: /mode [#canal] [flags]
+# 160 ERR_NOPERM
+160=Sin permiso para socket (firma/operador)
+# 161 ERR_TIMEOUT
+161=Tiempo de espera agotado
+# 162 ERR_REFUSED
+162=Conexion rechazada (puerto/host)
+# 163 ERR_UNREACH
+163=Servidor inalcanzable
+# 164 ERR_SOCKREAD
+164=Se perdió la conexión (red)
+# 165 ERR_CONN_LOST
+165=Conexion perdida
+# 166 ERR_CONN_FAIL
+166=No se pudo conectar
+# 167 ERR_NO_RESPONSE
+167=Sin respuesta del servidor
+# 168 REC_PREFIX
+168=Reconectando (
+# 169 REC_SUFFIX
+169=)...
+# 170 ERR_LINE_LONG
+170=Línea IRC demasiado larga ignorada
+# 171 ERR_NICK_TAKEN
+171=El nick no está disponible
+# 172 NOTICE_SERVER
+172=Servidor
+# 173 NOTICE_WHOIS
+173=whois
+# 174 ERR_CANNOT_JOIN_PRE
+174=No se pudo unir a 
+# 175 T_002
+175=Tu servidor es
+# 176 T_003
+176=Servidor creado
+# 177 T_004
+177=Version servidor
+# 178 T_005
+178=Opciones
+# 179 T_251
+179=Usuarios
+# 180 T_252
+180=Operadores
+# 181 T_253
+181=Desconocidos
+# 182 T_254
+182=Canales
+# 183 T_255
+183=Clientes
+# 184 T_265
+184=Usuarios locales
+# 185 T_266
+185=Usuarios globales
+# 186 T_329
+186=Canal creado el
+# 187 T_333
+187=Topic puesto por
+# 188 T_341
+188=Invitando a
+# 189 T_352
+189=Who
+# 190 T_315
+190=Fin de who
+# 191 T_401
+191=No existe ese nick
+# 192 T_402
+192=Servidor erroneo
+# 193 T_405
+193=Muteado (+m)
+# 194 T_406
+194=Ese nick ya salio
+# 195 T_421
+195=Comando desconocido
+# 196 T_441
+196=No esta en el canal
+# 197 T_442
+197=No estas en ese canal
+# 198 T_472
+198=Modo desconocido
+# 199 T_474
+199=Baneado (+b)
+# 200 T_478
+200=Lista de bans llena
+# 201 T_481
+201=Sin privilegios
+# 202 CH_LIST_PRE
+202=Canales: 
+# 203 CH_LIST_POST
+203= (Menu > Listar canales)
+# 204 BANS_PRE
+204=Bans: 
+# 205 WHO_USES
+205= usa 
+# 206 WHO_IDLE_PRE
+206=: inactivo 
+# 207 WHO_IDLE_POST
+207=s
+# 208 WHO_ON
+208= en: 
+# 209 WHO_END
+209=: fin de whois
+# 210 JOIN_IN_PRE
+210= ha entrado en 
+# 211 PART_LEFT_PRE
+211= se ha ido de 
+# 216 NICK_LABEL_PRE
+216=Nick: 
+# 217 ERR_LIST_NORESPONSE
+217=La lista no responde, prueba /list de nuevo
+# 218 NOTICE_STATUS_CLOSE
+218=La ventana de Status no se puede cerrar
+# 219 KICK_DEFAULT
+219=expulsado
+# 220 NICK_NOW
+220= ahora 
+# 221 TOPIC_PRE
+221=Topic: 
+# 222 BAN_TITLE_PRE
+222=Bans 
+# 223 CMD_REMOVE
+223=Quitar
+# 224 CHAN_SEARCHING
+224=Buscando canales...
+# 225 CHAN_TITLE_PRE
+225=Canales  
+# 226 CHAN_SEARCHING_SHORT
+226=Buscando...
+# 227 LIST_EMPTY
+227=Lista vacia
+# 228 IGN_TITLE_PRE
+228=Ignorados 
+# 229 IGN_NICK_SUFFIX
+229= (nick)
+# 230 IGN_EMPTY
+230=Vacia
+# 231 WIN_TITLE_PRE
+231=Ventanas  
+# 232 WIN_VIEW_TOPIC
+232=Ver Topic
+# 233 NO_TOPIC
+233=Sin topic
+# 234 CMD_CHOOSE
+234=Elegir
+# 235 GRP_EVENTS
+235=Eventos del canal:
+# 236 EVT_HIDE_ALL
+236=Ocultar todo
+# 237 EVT_HIDE_JOINS
+237=Ocultar solo joins
+# 238 EVT_SHOW_ALL
+238=Mostrar todo
+# 239 GRP_JOINSTYLE
+239=Estilo de joins:
+# 240 ERR_NICK_IN_USE_PRE
+240=Nick en uso: 
+# 241 ERR_NICK_INVALID_PRE
+241=Nick no válido: 
+# 242 ERR_SAVE_FAILED
+242=No se pudo guardar, ¿memoria llena?

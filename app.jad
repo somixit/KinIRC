@@ -1,0 +1,9 @@
+MIDlet-Name: KinIRC
+MIDlet-Version: 1.0
+MIDlet-Vendor: KinIRC
+MIDlet-Jar-URL: KinIRC.jar
+MicroEdition-Profile: MIDP-2.0
+MicroEdition-Configuration: CLDC-1.1
+MIDlet-Permissions: javax.microedition.io.Connector.socket
+MIDlet-1: KinIRC,/icon.png,kinirc.IrcMidlet
+MIDlet-Jar-Size: 134519

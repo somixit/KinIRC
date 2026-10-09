@@ -1,0 +1,57 @@
+## Shortcuts:
+Star key clears the window.
+-
+Pound key closes the window.
+-
+Key 1 opens Status.
+-
+Key 3 minimizes the app (held 200 ms).
+-
+Key 7 shows memory.
+-
+Quick mention: press Fire on a channel to reply without retyping nicks; Up/Down picks a recent message (shown white on blue), Fire or Left confirms and opens the editor with `nick ` ready. Back exits the mode.
+-
+
+## Actions:
+Action menu holds preset phrases or commands you can customize.
+-
+
+## Refresh:
+The screen refresh rate (100 ms to 1000 ms) saves CPU cycles. At 1000 ms it updates every second, at 100 ms every 0.1 seconds using more battery.
+-
+
+## Notifications:
+Enables sound or vibration when you are mentioned in a background channel, or someone opens a private chat. It also sounds while the app is minimized.
+-
+
+## Status blink:
+Blinking under the green icon in the top corner means there is an unread message in Status.
+-
+
+## Max windows:
+The window limit prevents flood attacks from saturating the device.
+-
+
+## Messages in memory:
+The message limit in memory prevents the program from choking on too much information.
+-
+
+## Indicator margin:
+Moves the window block (number and bars) away from the top corner, in case the phone draws system icons there (signal, battery) as on some Sony Ericsson phones.
+-
+
+## Reconnect:
+Enabling reconnect makes it reconnect automatically if it drops by itself.
+-
+
+## Red title:
+A red channel title means the window is open but you are not inside. Yellow means leaving: it closes once the server confirms.
+-
+
+## Battery saving:
+This mode saves battery by greatly reducing modem workload. To drop the load and therefore the power consumption, it leaves all channels but keeps the connection on, so you can still receive private messages, and it will beep or vibrate when one arrives. It triggers as soon as the app is minimized (long press key 3 or Menu > Minimize). It also triggers with a 30 second delay when the phone enters deep sleep after switching off the screen automatically. Minimizing with the Sony Ericsson back button and selecting "minimize app" also triggers it with a 30 second delay. When you return, it rejoins the channels it left automatically.
+-
+
+## Channel events:
+In Interface > Channel events: "Hide all" removes joins, parts, quits, nick changes, kicks, topics and modes (including bans). "Hide joins only" removes joins, parts, quits, nick changes and kicks, but keeps topics, channel modes and bans. The chosen style ("Compact fine", "Compact Bold", "Normal") also applies to nick changes.
+-
